@@ -83,7 +83,7 @@ public class EnderParasite extends JavaPlugin implements Listener {
             return;
         }
         
-        if (Math.random() >= 0.01) {
+        if (Math.random() >= spawnProbability) {
             return;
         }
         Location loc = b.getLocation();
